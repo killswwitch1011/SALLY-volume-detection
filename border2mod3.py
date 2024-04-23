@@ -49,8 +49,8 @@ def extract_inside_border(beaker_image_path, border_image_path):
     return ratio_percentage, liquid_surface_img
 
 # Test the function
-beaker_image_path = 'test2.JPG'
-border_image_path = 'border.final.tif'
+beaker_image_path = 'IMG_2860.JPG'
+border_image_path = 'IMG_2860_BORDERS.tif'
 ratio, result_image = extract_inside_border(beaker_image_path, border_image_path)
 
 # Display results
