@@ -10,6 +10,8 @@ clean:
   rm *.jpg
   rm *.tif
   rm *.py
-
 run:
   python ${fileName}
+check:
+  rpicam-hello
+  
